@@ -1,0 +1,81 @@
+/* Reset default browser spacing and set global font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main card container */
+.container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    margin-top: 0;
+}
+
+/* Horizontal alignment for input box and button */
+.input-section {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Task List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Red button for deleting tasks */
+.delete-btn {
+    background-color: #dc3545;
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+.delete-btn:hover {
+    background-color: #bd2130;
+}
